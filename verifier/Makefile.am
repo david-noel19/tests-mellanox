@@ -25,7 +25,7 @@ bin_PROGRAMS = oshmem_test
 lib_LIBRARIES = liboshmem_basic_tc3.a
 liboshmem_basic_tc3_a_SOURCES = basic/osh_basic_tc3_lib.c
 
-oshmem_test_CFLAGS =  $(CFLAGS) -Werror -Wall -D__LINUX__ \
+oshmem_test_CFLAGS =  $(CFLAGS) -Wall -D__LINUX__ \
 					  -I. \
 					  -I$(top_srcdir) \
 					  -I$(top_srcdir)/cmn
@@ -224,16 +224,7 @@ oshmem_test_SOURCES = \
 	strided/osh_strided_tc19.c \
 	strided/osh_strided_tc10.c \
 	strided/osh_strided_tc20.c \
-	mix/osh_mix.c \
-	mix/osh_mix_tc1.c \
-	mix/osh_mix_tc2.c \
-	mix/osh_mix_tc3.c \
 	analysis/osh_analysis.c \
-	analysis/osh_analysis_tc1.c \
-	analysis/osh_analysis_tc2.c \
-	analysis/osh_analysis_tc3.c \
-	analysis/osh_analysis_tc4.c \
-	analysis/osh_analysis_tc5.c \
 	nbi/osh_nbi.c \
 	misc/osh_misc.c \
 	misc/osh_misc_tc1.c

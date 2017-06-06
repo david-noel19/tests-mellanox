@@ -13,6 +13,9 @@
 #include <math.h>
 
 #include "shmem.h"
+#ifndef SHMEM_HEAP_SIZE 
+#define SHMEM_HEAP_SIZE "SHMEM_SYMMETRIC_HEAP_SIZE"
+#endif
 
 static int _put_completion_flag = PUT_IN_PROGRESS;
 

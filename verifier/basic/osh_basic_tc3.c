@@ -14,7 +14,9 @@
 #include "shmem.h"
 
 #include "osh_basic_tests.h"
-
+#ifndef SHMEM_HEAP_TYPE
+#define SHMEM_HEAP_TYPE "SHMEM_SYMMETRIC_HEAP_TYPE"
+#endif 
 /****************************************************************************
  * Test Case can consitis of different number of separate items
  * it is recommended to form every item as function
