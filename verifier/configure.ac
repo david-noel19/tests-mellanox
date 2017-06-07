@@ -29,6 +29,9 @@ AC_CHECK_LIB([oshmem], [shmem_getmem_nbi],
     ],
     [AM_CONDITIONAL([HAVE_NBI],[false])])
 
+AC_CHECK_LIB(pthread, pthread_cancel, [],
+    AC_MSG_ERROR([pthread_cancel() not found.  testmellanox requires libpthread.]))
+
 dnl Check oshmem alltoall
 AC_CHECK_DECLS([shmem_alltoall32, shmem_alltoall64],
     [AM_CONDITIONAL([HAVE_ALLTOALL],[true])
