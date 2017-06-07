@@ -224,7 +224,6 @@ oshmem_test_SOURCES = \
 	strided/osh_strided_tc19.c \
 	strided/osh_strided_tc10.c \
 	strided/osh_strided_tc20.c \
-	analysis/osh_analysis.c \
 	nbi/osh_nbi.c \
 	misc/osh_misc.c \
 	misc/osh_misc_tc1.c
