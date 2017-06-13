@@ -184,8 +184,6 @@ oshmem_test_SOURCES = \
 	reduce/osh_reduce_tc31.c \
 	reduce/osh_reduce_tc32.c \
 	reduce/osh_reduce_tc33.c \
-	reduce/osh_reduce_tc34.c \
-	reduce/osh_reduce_tc35.c \
 	reduce/osh_reduce_tc36.c \
 	reduce/osh_reduce_tc37.c \
 	reduce/osh_reduce_tc38.c \
@@ -193,8 +191,6 @@ oshmem_test_SOURCES = \
 	reduce/osh_reduce_tc40.c \
 	reduce/osh_reduce_tc41.c \
 	reduce/osh_reduce_tc42.c \
-	reduce/osh_reduce_tc43.c \
-	reduce/osh_reduce_tc44.c \
 	sync/osh_sync.c \
 	sync/osh_sync_tc1.c \
 	sync/osh_sync_tc2.c \
