@@ -19,7 +19,7 @@ const TE_NODE sync_tcs[] =
     { NULL, osh_sync_tc1,  "barrier_all",   aopt_set_string( "tc1" ), 	"Barrier All Synchronization Routine.", TEST_RUN},
     { NULL, osh_sync_tc2,  "wait",          aopt_set_string( "tc2" ), 	"Wait Synchronization Routine.", TEST_RUN},
     { NULL, osh_sync_tc3,  "wait_until",    aopt_set_string( "tc3" ), 	"Wait Until Synchronization Routine.", TEST_RUN},
-    { NULL, osh_sync_tc4,  "barrier",       aopt_set_string( "tc4" ), 	"Barrier Synchronization Routine.", TEST_RUN},
+  /*{ NULL, osh_sync_tc4,  "barrier",       aopt_set_string( "tc4" ), 	"Barrier Synchronization Routine.", TEST_RUN},*/
     { NULL, osh_sync_tc5,  "quiet",         aopt_set_string( "tc5" ), 	"Quiet.", TEST_RUN},
     { NULL, osh_sync_tc6,  "barrier_stress",aopt_set_string( "tc6" ), 	"Barrier All Stress Test.", TEST_RUN},
     { NULL, osh_sync_tc7,  "fence_stress",  aopt_set_string( "tc7" ), 	"Fence Stress Test.", TEST_RUN},

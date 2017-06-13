@@ -16,7 +16,7 @@
 
 const TE_NODE reduce_tcs[] =
 {
-    { NULL, osh_reduce_tc1,     "and_short",    aopt_set_string( "tc1" ), 	"shmem_short_and_to_all(): Performs a bitwise AND operation on symmetric arrays of 'short' datatype over the active set of PEs.", TEST_RUN},
+   /* { NULL, osh_reduce_tc1,     "and_short",    aopt_set_string( "tc1" ), 	"shmem_short_and_to_all(): Performs a bitwise AND operation on symmetric arrays of 'short' datatype over the active set of PEs.", TEST_RUN},
     { NULL, osh_reduce_tc2,     "and_int",      aopt_set_string( "tc2" ), 	"shmem_int_and_to_all(): Performs a bitwise AND operation on symmetric arrays of 'int' datatype over the active set of PEs.", TEST_RUN},
     { NULL, osh_reduce_tc3,     "and_long",     aopt_set_string( "tc3" ), 	"shmem_long_and_to_all(): Performs a bitwise AND operation on symmetric arrays of 'long' datatype over the active set of PEs.", TEST_RUN},
     { NULL, osh_reduce_tc4,     "and_llong",    aopt_set_string( "tc4" ), 	"shmem_longlong_and_to_all(): Performs a bitwise AND operation on symmetric arrays of 'long long' datatype over the active set of PEs.", TEST_RUN},
@@ -59,7 +59,7 @@ const TE_NODE reduce_tcs[] =
     { NULL, osh_reduce_tc41,    "prod_double",  aopt_set_string( "tc41" ), 	"shmem_double_prod_to_all(): Calculates PROD on symmetric arrays of 'double' datatype over the active set of PEs.", TEST_RUN},
     { NULL, osh_reduce_tc42,    "prod_ldouble", aopt_set_string( "tc42" ), 	"shmem_longdouble_prod_to_all(): Calculates PROD on symmetric arrays of 'long double' datatype over the active set of PEs.", TEST_RUN},
     { NULL, osh_reduce_tc43,    "prod_fcomplex",aopt_set_string( "tc43" ), 	"shmem_complexf_prod_to_all(): Calculates PROD on symmetric arrays of 'float complex' datatype over the active set of PEs.", TEST_RUN},
-    { NULL, osh_reduce_tc44,    "prod_dcomplex",aopt_set_string( "tc44" ), 	"shmem_complexd_prod_to_all(): Calculates PROD on symmetric arrays of 'double complex' datatype over the active set of PEs.", TEST_RUN},
+    { NULL, osh_reduce_tc44,    "prod_dcomplex",aopt_set_string( "tc44" ), 	"shmem_complexd_prod_to_all(): Calculates PROD on symmetric arrays of 'double complex' datatype over the active set of PEs.", TEST_RUN},*/
     { NULL, NULL,           NULL,	        aopt_set_string( NULL ),    NULL, TEST_IGNORE}
 };
 
