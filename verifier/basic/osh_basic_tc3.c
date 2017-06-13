@@ -16,7 +16,12 @@
 #include "osh_basic_tests.h"
 #ifndef SHMEM_HEAP_TYPE
 #define SHMEM_HEAP_TYPE "SHMEM_SYMMETRIC_HEAP_TYPE"
-#endif 
+#endif
+ 
+#ifndef shmemalign
+#define shmemalign shmem_align
+#endif
+
 /****************************************************************************
  * Test Case can consitis of different number of separate items
  * it is recommended to form every item as function
@@ -41,6 +46,7 @@ enum {
     MEMHEAP_ALLOC_BUDDY,
     MEMHEAP_ALLOC_PTMALLOC,
     MEMHEAP_ALLOC_UNDEFINED
+
 };
 
 static int memheap_type(void)

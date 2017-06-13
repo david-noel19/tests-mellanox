@@ -21,6 +21,11 @@
 #define MAX_ALLOC_CONST                     (10)
 #define HEAP_PERCENT                        (0.8)
 #define MIN_ALLOC_SIZE_IN_BYTES             (8)
+
+#ifndef shmemalign
+#define shmemalign shmem_align
+#endif
+
 enum errors {
     ERROR_SHMALLOC          = 1,
     ERROR_SHREALLOC         = 1 << 1,
